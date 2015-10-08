@@ -14,6 +14,8 @@
 		F42DAF511BC4A8FB00EFFE29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42DAF501BC4A8FB00EFFE29 /* Assets.xcassets */; };
 		F42DAF541BC4A8FB00EFFE29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42DAF521BC4A8FB00EFFE29 /* LaunchScreen.storyboard */; };
 		F42DAF5F1BC4A8FB00EFFE29 /* HappySkyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42DAF5E1BC4A8FB00EFFE29 /* HappySkyTests.swift */; };
+		F42DAF6A1BC60BD100EFFE29 /* CurrentWeather.plist in Resources */ = {isa = PBXBuildFile; fileRef = F42DAF691BC60BD100EFFE29 /* CurrentWeather.plist */; settings = {ASSET_TAGS = (); }; };
+		F42DAF6C1BC60C2200EFFE29 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42DAF6B1BC60C2200EFFE29 /* CurrentWeather.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		F42DAF5A1BC4A8FB00EFFE29 /* HappySkyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HappySkyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42DAF5E1BC4A8FB00EFFE29 /* HappySkyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappySkyTests.swift; sourceTree = "<group>"; };
 		F42DAF601BC4A8FB00EFFE29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42DAF691BC60BD100EFFE29 /* CurrentWeather.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CurrentWeather.plist; sourceTree = "<group>"; };
+		F42DAF6B1BC60C2200EFFE29 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +85,13 @@
 			children = (
 				F42DAF461BC4A8FB00EFFE29 /* AppDelegate.swift */,
 				F42DAF481BC4A8FB00EFFE29 /* ViewController.swift */,
+				F42DAF6B1BC60C2200EFFE29 /* CurrentWeather.swift */,
 				F42DAF4A1BC4A8FB00EFFE29 /* Main.storyboard */,
 				F42DAF501BC4A8FB00EFFE29 /* Assets.xcassets */,
 				F42DAF521BC4A8FB00EFFE29 /* LaunchScreen.storyboard */,
 				F42DAF551BC4A8FB00EFFE29 /* Info.plist */,
 				F42DAF4D1BC4A8FB00EFFE29 /* HappySky.xcdatamodeld */,
+				F42DAF691BC60BD100EFFE29 /* CurrentWeather.plist */,
 			);
 			path = HappySky;
 			sourceTree = "<group>";
@@ -180,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F42DAF541BC4A8FB00EFFE29 /* LaunchScreen.storyboard in Resources */,
+				F42DAF6A1BC60BD100EFFE29 /* CurrentWeather.plist in Resources */,
 				F42DAF511BC4A8FB00EFFE29 /* Assets.xcassets in Resources */,
 				F42DAF4C1BC4A8FB00EFFE29 /* Main.storyboard in Resources */,
 			);
@@ -201,6 +208,7 @@
 			files = (
 				F42DAF491BC4A8FB00EFFE29 /* ViewController.swift in Sources */,
 				F42DAF471BC4A8FB00EFFE29 /* AppDelegate.swift in Sources */,
+				F42DAF6C1BC60C2200EFFE29 /* CurrentWeather.swift in Sources */,
 				F42DAF4F1BC4A8FB00EFFE29 /* HappySky.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
